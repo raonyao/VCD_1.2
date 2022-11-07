@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FOOD</title>
+
+<style type="text/css">
+.bigbox{
+	background-color:#000000;
+	width="100%";
+	height="100%";
+}
+.name{
+	color:#FFFFFF;
+	text-align:center;
+	padding: 20px;
+}
+.kaizoku{
+	text-align: center;
+}
+hr{
+	background-color: #FFFFFF;
+	height: 3px;
+	width: 95%;
+	text-align: center;
+}
+.flex1{
+	display: flex;
+	gap: 20px;
+	border-top: 100px solid #000000;
+	border-right: 50px solid #000000;
+	border-left: 50px solid #000000;
+}
+.flex2{
+	display: flex;
+	gap: 20px;
+	border-right: 50px solid #000000;
+	border-left: 50px solid #000000;
+}
+.flex3{
+	display: flex;
+	gap: 20px;
+	border-top: 50px solid #000000;
+	border-right: 50px solid #000000;
+	border-left: 50px solid #000000;
+	border-bottom: 100px solid #000000;
+}
+.text{
+	padding-left:75px;
+}
+.title1{
+	color: #FFFFFF;
+	width: 100%;
+}
+.title2{
+	color: #FFFFFF;
+	width: 25%;
+}
+.title3{
+	color: #FFFFFF;
+	width: 50%;
+}
+.image{
+	width: 50%;
+}
+.course{
+	color: #FFFFFF;
+	width: 50%;
+}
+.info{
+	color: #FFFFFF;
+	width: 25%;
+	align-content: center;
+}
+.greeting{
+	color: #FFFFFF;
+	width: 50%;
+}
+ul.ddmenu {
+   margin: 0px;               
+   padding: 0px 0px 0px 15px; 
+   background-color: #000000;
+	text-align: center;
+}
+ul.ddmenu li {
+width: 250px; /* メニュー項目の横幅(125px) */
+display: inline-block; /* ★1:横並びに配置する */
+list-style-type: none; /* ★2:リストの先頭記号を消す */
+position: relative; /* ★3:サブメニュー表示の基準位置にする */
+}
+ul.ddmenu a {
+background-color: #000000; /* メニュー項目の背景色(濃い赤色) */
+color: white; /* メニュー項目の文字色(白色) */
+line-height: 40px; /* メニュー項目のリンクの高さ(40px) */
+text-align: center; /* メインメニューの文字列の配置(中央寄せ) */
+text-decoration: none; /* メニュー項目の装飾(下線を消す) */
+font-weight: bold; /* 太字にする */
+display: block; /* ★4:項目内全域をリンク可能にする */
+}
+ul.ddmenu ul {
+display: none; /* ★1:標準では非表示にする */
+margin: 0px; /* ★2:サブメニュー外側の余白(ゼロ) */
+padding: 0px; /* ★3:サブメニュー内側の余白(ゼロ) */
+position: absolute; /* ★4:絶対配置にする */
+}
+ul.ddmenu a:hover {
+background-color: #E0602D; /* メニュー項目にマウスが載ったときの背景色(淡いピンク) */
+color: #A73A16; /* メニュー項目にマウスが載ったときの文字色(濃い赤色) */
+}
+ul.ddmenu li:hover ul {
+display: block; /* ★5:マウスポインタが載っている項目の内部にあるリストを表示する */
+}
+</style>
+
+</head>
+
+<!-- 実際には#にURLを記述 -->
+
+<body>
+<div class="bigbox">
+	<div class="name">
+		<h1>イタリアン　CIT</h1>
+	</div>
+	<ul class="ddmenu">
+   		<li><a href="index.html">HOME</a></li>
+   		<li><a href="#">MENU</a>
+    		<ul>
+        		 <li><a href="FOOD.html">FOOD</a></li>
+        		 <li><a href="DRINK.html">DRINK</a></li>
+    		</ul>
+   		</li>
+   		<li><a href="greeting.html">あいさつ</a>
+	   
+  		 </li>
+	
+		 <li><a href="access.html">アクセス</a>
+			 
+	     </li>
+	</ul>
+	<hr>
+	<div class="flex1">
+		<div class="title1">
+			<p><font size="7">FOOD</font></p>
+		</div>
+	</div>
+	<div class="flex2">
+		<div class="title2">
+			<h2>PIZZA</h2>
+			<p>　生ハムピザ</p>
+			<p>　ミックスピザ</p>
+			<h2>PASTA</h2>
+			<p>　シーフードトマトパスタ</p>
+			<p>　明太マヨパスタ</p>
+			<p>　キノコの和風パスタ</p>
+			<p>　カルボナーラ</p>
+			<p>　ペペロンチーノ</p>
+			<p>　ナポリタン</p>
+			<p>　ミートソース</p>
+			<h2>DORIA&GRATIN</h2>
+			<p>　ドリア</p>
+			<p>　エビドリア</p>
+			<p>　エビグラタン</p>
+			<p>　チーズグラタン</p>
+		</div>
+		<div class="title2">
+			<h2>APPETIZERS</h2>
+			<p>　国産牛ステーキ</p>
+			<p>　国産牛ローストビーフ</p>
+			<p>　生ハム盛り合わせ</p>
+			<p>　絶品アヒージョ</p>
+			<p>　豚カシラ肉の柔らかグリル</p>
+			<p>　鴨むね肉のロースとオレンジソース</p>
+			<p>　パテドカンパーニュ</p>
+			<p>　トマトとモッツァレラチーズ</p>
+			<p>　こだわり5チーズ料理</p>
+			<p>　ソーセージ盛り合わせ</p>
+			<p>　チーズ盛り合わせ</p>
+			<p>　鶏のから揚げ</p>
+			<p>　フライドポテト</p>
+			<p>　ビーフジャーキー</p>
+			<p>ミックスナッツ</p>
+			<p>ect...</p>
+		</div>
+		<div class="image">
+			<img src="国産業ステーキ２.jpg" width="80%">
+			<img src="640x640_rect_d72a707c331535c4da2af4f1cd6001d3.jpg" width="80%">
+		</div>
+	</div>
+	<div class="flex2">
+		<div class="title3">
+			<h2>SALAD</h2>
+			<p>　チキンのシーザーサラダ　　　小エビのサラダ</p>
+			<p>　ガーデンサラダ　　　　　　　シェフの気まぐれサラダ</p>
+			<h2>SWEETS</h2>
+			<p>　ティラミス・クラシコ　　　　イタリアンプディング　　　チョコケーキ</p>
+			<p>　イタリアン・ジェラート　　　シナモンプチフォッカ　　　レモンシャーベット</p>
+			<p>　トリュフアイスクリーム　　　プディングとアイスの盛り合わせ</p>
+			<p>　パンナコッタ　　　　　　　　カプチーノケーキ　　　　　ect...</p>
+		</div>
+		<div class="image">
+			<img src="こだわり２.jpg" width="80%">
+		</div>
+	</div>
+	<div class="flex3">
+		<div class="course">
+			<h1>【コスパ最高のコースメニューも人気】</h1>
+			<p>　・カジュアルコース　　5000円</p><br>
+			<p>　・スタンダードコース　7000円</p><br>
+			<p>　・プレミアムコース　　8500円</p><br>
+			<p>　　オーソドックスな三つのコースに加え、<br>　　誕生日コースや記念日コースなども承っております！</p>
+		</div>
+		<div class="image">
+			<img src="こだわり３コース料理.jpg" width="80%">
+		</div>
+	</div>
+	<hr>
+
+	<div class="flex2">
+		<div class="info">
+			<p>住所<br>〒999-999<br>奈良氏之市都田沼１２３<br><br>TEL:０００－１２３４－５６７８<br>ダイニングバー<br>イタリアン　CIT</p>
+		</div>
+		<div class="info">
+			<p>営業時間<br>ランチ：11:00~14:00<br>ディナー：17:00~22:00</p>
+		</div>
+		<div class="greeting">
+			<p>オーナーシェフが厳選した絶品チーズを使ったメニューも人気です。<br>ワインとチーズをお楽しみください。<br><br>皆様のご来店をお待ちしています。</p>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>
